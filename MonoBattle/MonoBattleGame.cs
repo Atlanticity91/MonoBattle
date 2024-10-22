@@ -16,15 +16,11 @@ namespace MonoBattle {
         }
 
         protected override void Initialize( ) {
-            // TODO: Add your initialization logic here
-
             base.Initialize( );
         }
 
         protected override void LoadContent( ) {
             _spriteBatch = new SpriteBatch( GraphicsDevice );
-
-            // TODO: use this.Content to load your game content here
         }
 
         protected override void Update( GameTime gameTime ) {
